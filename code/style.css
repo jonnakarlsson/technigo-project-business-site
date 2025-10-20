@@ -1,5 +1,28 @@
-/* After you've linked the CSS file in the HTML,
-this should turn the background blue ;) */
+html {
+  background:rgb(249, 246, 246);
+  color: #534a4a;
+}
+header{
+  background-image: url('assets/arbete.jpg'); 
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
 body {
-  background: blue;
+  font-family: Raleway, Barlow, Arial, Helvetica; 
+}
+
+h1 {
+  color:rgb(34, 37, 81);
+}
+.page_title{
+  color: azure;
+  display: flex;
+  padding: 14px 20px;
+  background-color: rgba(34, 37, 81, 0.5);
+  text-align: center;
+  font-style: italic;
 }
