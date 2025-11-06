@@ -11,7 +11,57 @@
     <header>
       <h1 class="page_title">Djurö Båtsällskap</h1>
     </header>
+    Endast medlemmar i DBS har möjlighet att ansöka om Hamn- eller Varvsplats. Vid ev. delägarskap av båt skall samtliga delägare vara fullvärdiga alternativt stödjande medlemar i DBS. Medlemskap kostar 300kr per år men att ansöka om plats är gratis. 
+
+    Inte medlem? Bli det via <a href="http://dbs/nymedlem.se">Join DBS</a>
    
+
+    <form action="http://httpbin.org/anything" method="post">
+      
+      <label>För och Efternamn
+        <input type="text" required name="name">
+      </label>
+      <label>E-postadress
+        <input type="email" required name="memberEmail">
+      </label>
+
+      <label>Telefonnummer
+        <input type="number" required name="phone">
+      </label>
+      
+      <label>Medelems-id
+        <input type="text" name="memberId">
+      </label>
+
+      <label>Önskad platstyp
+        <select name=dockOption>
+          <option value="sommar">Sommarplats</option>
+          <option value="vinter">Varvsplats</option>
+          <option value="sommarOchVarv">Sommar & Varvsplats</option>
+      </select>
+      </label>
+
+      <label>Båttyp
+        <select name="boatType">
+          <option value="sail">Segelbåt</option>
+          <option value="motor">Motorbåt</option>
+          <option value="rodd">Roddbåt</option>
+      </select>
+      </label>
+
+      <label>Båtmodell/Märke
+        <input type="text" required name="boatModell">
+      </label>
+
+      <label>Från när önskas plats?
+        <input type="date" required name="dateDock">
+      </label>
+
+      <label>Försäkringsbolag<input type="text" required name="insurane"></label>
+
+      <button type="submit">Spara och Ansök om plats</button>
+    </form>
+
     <!-- Signup form -->
 
   </body>
