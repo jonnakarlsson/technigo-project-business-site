@@ -11,29 +11,41 @@
     <header>
       <h1 class="page_title">Djurö Båtsällskap</h1>
     </header>
-    Endast medlemmar i DBS har möjlighet att ansöka om Hamn- eller Varvsplats. Vid ev. delägarskap av båt skall samtliga delägare vara fullvärdiga alternativt stödjande medlemar i DBS. Medlemskap kostar 300kr per år men att ansöka om plats är gratis. 
+    
+  <fieldset>
+    <h2>
+      Ansök om hamn- eller varvplats hos oss!
+    </h2>
 
+    <h3>Endast medlemmar i DBS har möjlighet att ansöka om Hamn- eller Varvsplats. Vid ev. delägarskap av båt skall samtliga delägare vara fullvärdiga alternativt stödjande medlemar i DBS. Medlemskap kostar 300kr per år men att ansöka om plats är gratis.</h3>
+    <br>
     Inte medlem? Bli det via <a href="http://dbs/nymedlem.se">Join DBS</a>
    
 
     <form action="http://httpbin.org/anything" method="post">
       
-      <label>För och Efternamn
+      <label>
+        <span>För och Efternamn</span>
         <input type="text" required name="name">
       </label>
-      <label>E-postadress
+
+      <label>
+        <span>E-postadress</span>
         <input type="email" required name="memberEmail">
       </label>
 
-      <label>Telefonnummer
+      <label>
+        <span>Telefonnummer</span>
         <input type="number" required name="phone">
       </label>
       
-      <label>Medelems-id
+      <label>
+        <span>Medelems-id</span>
         <input type="text" name="memberId">
       </label>
 
-      <label>Önskad platstyp
+      <label>
+        <span>Önskad platstyp</span>
         <select name=dockOption>
           <option value="sommar">Sommarplats</option>
           <option value="vinter">Varvsplats</option>
@@ -41,7 +53,8 @@
       </select>
       </label>
 
-      <label>Båttyp
+      <label>
+        <span>Båttyp</span>
         <select name="boatType">
           <option value="sail">Segelbåt</option>
           <option value="motor">Motorbåt</option>
@@ -49,20 +62,25 @@
       </select>
       </label>
 
-      <label>Båtmodell/Märke
+      <label>
+        <span>Båtmodell/Märke</span>
         <input type="text" required name="boatModell">
       </label>
 
-      <label>Från när önskas plats?
+      <label>
+        <span>Från när önskas plats?</span>
         <input type="date" required name="dateDock">
       </label>
 
-      <label>Försäkringsbolag<input type="text" required name="insurane"></label>
+      <label>
+        <span>Försäkringsbolag</span>
+        <input type="text" required name="insurane"></label>
 
       <button type="submit">Spara och Ansök om plats</button>
     </form>
-
-    <!-- Signup form -->
+    
+  
+  </fieldset> 
 
   </body>
 </html>
